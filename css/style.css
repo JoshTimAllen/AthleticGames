@@ -492,16 +492,18 @@ input {
 }
 
 .footer {
+    margin-top: 60px;
+    /* increased for more space above footer */
     background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
     padding: 40px 20px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    border-top: 2px solid #ff6600;
+    border-top: 2px solid #ffcc00;
 }
 
 .footer-email a {
-    color: #ff6600;
+    color: #ffe864;
     font-size: 1.1rem;
     text-decoration: none;
     font-weight: bold;
@@ -509,7 +511,7 @@ input {
 }
 
 .footer-email a:hover {
-    color: #ffd700;
+    color: #FFB300;
 }
 
 /* Social Icons */

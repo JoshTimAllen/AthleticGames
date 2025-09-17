@@ -548,3 +548,16 @@ input {
     transform: translate(-50%, -50%);
     z-index: 0;
 }
+
+.app-buttons .store-badge {
+    height: 55px;
+    /* uniform height */
+    width: auto;
+    /* scale width proportionally */
+}
+
+/* Optional: increase spacing between buttons */
+.app-buttons {
+    gap: 20px;
+}
+

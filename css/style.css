@@ -255,7 +255,47 @@ hr {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.4) 100%), url(../resources/pic1.png);
 }
 
-@media (max-width : 767px) {}
+@media (max-width : 767px) {
+    #about-section {
+        padding: 5vh 0 !important;
+    }
+
+    #about-section>*,
+    #about-section .container,
+    #about-section .row,
+    #about-section .col-xl-6,
+    #about-section .col-md-12 {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+  #about-section,
+  .game-features,
+  .par2,
+  .par3 {
+    padding-left: 6vw !important;
+    padding-right: 6vw !important;
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
+  }
+  #about-section > *,
+  #about-section .container,
+  #about-section .row,
+  #about-section .col-xl-6,
+  #about-section .col-md-12,
+  .game-features > *,
+  .par2 > *,
+  .par3 > * {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
 
 @media (max-width: 767px) {
 

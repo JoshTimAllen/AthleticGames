@@ -615,3 +615,22 @@ input {
     gap: 20px;
 }
 
+@media (max-width: 767px) {
+    #cta-section h1 {
+        font-size: 2.5rem;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        padding: 0.2em 0.1em;
+        padding-bottom: 20px;
+        background: linear-gradient(90deg, #FFD700 0%, #FFB300 60%, #FFF8DC 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: 1px 2px 8px rgba(180, 140, 30, 0.35), 0 1px 0 #fff8dc;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px 0 rgba(255, 215, 0, 0.10);
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+

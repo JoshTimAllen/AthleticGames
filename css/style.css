@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
+html, body {
+    overflow-x: hidden !important;
+}
+
 .colored {
     color: #d71414;
 }

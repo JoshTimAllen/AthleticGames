@@ -534,7 +534,6 @@ input {
 }
 
 .footer {
-    margin-top: 60px;
     /* increased for more space above footer */
     background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
     padding: 40px 20px;

@@ -273,28 +273,30 @@ hr {
 }
 
 @media (max-width: 1024px) {
-  #about-section,
-  .game-features,
-  .par2,
-  .par3 {
-    padding-left: 6vw !important;
-    padding-right: 6vw !important;
-    padding-top: 5vh !important;
-    padding-bottom: 5vh !important;
-  }
-  #about-section > *,
-  #about-section .container,
-  #about-section .row,
-  #about-section .col-xl-6,
-  #about-section .col-md-12,
-  .game-features > *,
-  .par2 > *,
-  .par3 > * {
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+
+    #about-section,
+    .game-features,
+    .par2,
+    .par3 {
+        padding-left: 6vw !important;
+        padding-right: 6vw !important;
+        padding-top: 5vh !important;
+        padding-bottom: 5vh !important;
+    }
+
+    #about-section>*,
+    #about-section .container,
+    #about-section .row,
+    #about-section .col-xl-6,
+    #about-section .col-md-12,
+    .game-features>*,
+    .par2>*,
+    .par3>* {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -669,8 +671,8 @@ input {
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-shadow: 1px 2px 8px rgba(180, 140, 30, 0.35), 0 1px 0 #fff8dc;
-        border-radius: 8px;
-        box-shadow: 0 2px 12px 0 rgba(255, 215, 0, 0.10);
+        border-radius: 0px;
+        /* box-shadow: 0 2px 12px 0 rgba(255, 215, 0, 0.10); */
         font-weight: 900;
         text-transform: uppercase;
     }
